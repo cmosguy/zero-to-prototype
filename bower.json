@@ -16,6 +16,7 @@
     "velocity": "~1.1.0"
   },
   "devDependencies": {
-    "gumby": "~2.6.3"
+    "gumby": "~2.6.4",
+    "modular-scale": "~2.0.7"
   }
 }

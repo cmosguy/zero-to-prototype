@@ -2,7 +2,12 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-var app = new EmberApp();
+var app = new EmberApp({
+	compassOptions: {
+		config: 'app/styles/config.rb',
+		sassDir: 'sass'
+	}
+});
 
 app.import('bower_components/moment/moment.js');
 app.import('bower_components/velocity/velocity.js');
